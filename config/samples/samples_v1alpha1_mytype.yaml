@@ -1,0 +1,9 @@
+apiVersion: samples.upbound.io/v1alpha1
+kind: Mytype
+metadata:
+  labels:
+    controller-tools.k8s.io: "1.0"
+  name: mytype-sample
+spec:
+  # Add fields here
+  foo: bar
