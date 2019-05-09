@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: crossplane-sample-extension
+  labels:
+    core.crossplane.io/name: "crossplane-sample-extension"
+spec:
+  selector:
+    matchLabels:
+      core.crossplane.io/name: "crossplane-sample-extension"
+  replicas: 1
+  template:
+    metadata:
+      name: sample-extension-controller
+      labels:
+        core.crossplane.io/name: "crossplane-sample-extension"
+    spec:
+      containers:
+      - name: sample-extension-controller
+        image: crossplane/sample-extension:latest
+        env:
+        - name: POD_NAME
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
+        - name: POD_NAMESPACE
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.namespace

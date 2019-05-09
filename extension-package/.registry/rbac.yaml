@@ -1,0 +1,22 @@
+rules:
+- apiGroups:
+  - ""
+  resources:
+  - secrets
+  - serviceaccounts
+  - events
+  - namespaces
+  verbs:
+  - get
+  - list
+  - watch
+  - create
+  - update
+  - patch
+  - delete
+- apiGroups:
+  - samples.upbound.io
+  resources:
+  - "*"
+  verbs:
+  - "*"
