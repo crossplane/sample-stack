@@ -1,7 +1,7 @@
 
 # Image URL to use all building/pushing image targets
 PROJECT_NAME := crossplane
-IMAGE_NAME ?= sample-extension
+IMAGE_NAME ?= sample-stack
 VERSION ?= latest
 IMG ?= ${PROJECT_NAME}/${IMAGE_NAME}:${VERSION}
 
@@ -13,7 +13,7 @@ test: generate fmt vet manifests
 
 # Build manager binary
 manager: generate fmt vet
-	go build -o bin/manager github.com/crossplaneio/sample-extension/cmd/manager
+	go build -o bin/manager github.com/crossplaneio/sample-stack/cmd/manager
 
 # Run against the configured Kubernetes cluster in ~/.kube/config
 run: generate fmt vet

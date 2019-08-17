@@ -8,5 +8,5 @@ spec:
     spec:
       containers:
       # Change the value of image field below to your controller image URL
-      - image: crossplane/sample-extension:latest
+      - image: crossplane/sample-stack:latest
         name: manager

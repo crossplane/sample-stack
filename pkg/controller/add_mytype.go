@@ -17,7 +17,7 @@ limitations under the License.
 package controller
 
 import (
-	"github.com/crossplaneio/sample-extension/pkg/controller/mytype"
+	"github.com/crossplaneio/sample-stack/pkg/controller/mytype"
 )
 
 func init() {

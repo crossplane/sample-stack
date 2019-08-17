@@ -17,7 +17,7 @@ limitations under the License.
 package apis
 
 import (
-	"github.com/crossplaneio/sample-extension/pkg/apis/samples/v1alpha1"
+	"github.com/crossplaneio/sample-stack/pkg/apis/samples/v1alpha1"
 )
 
 func init() {

@@ -20,9 +20,9 @@ import (
 	"flag"
 	"os"
 
-	"github.com/crossplaneio/sample-extension/pkg/apis"
-	"github.com/crossplaneio/sample-extension/pkg/controller"
-	"github.com/crossplaneio/sample-extension/pkg/webhook"
+	"github.com/crossplaneio/sample-stack/pkg/apis"
+	"github.com/crossplaneio/sample-stack/pkg/controller"
+	"github.com/crossplaneio/sample-stack/pkg/webhook"
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
 	"sigs.k8s.io/controller-runtime/pkg/client/config"
 	"sigs.k8s.io/controller-runtime/pkg/manager"

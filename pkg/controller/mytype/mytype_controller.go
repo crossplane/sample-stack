@@ -19,7 +19,7 @@ package mytype
 import (
 	"context"
 
-	samplesv1alpha1 "github.com/crossplaneio/sample-extension/pkg/apis/samples/v1alpha1"
+	samplesv1alpha1 "github.com/crossplaneio/sample-stack/pkg/apis/samples/v1alpha1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
