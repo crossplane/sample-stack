@@ -23,6 +23,9 @@ owners:
 # Human readable company name.
 company: Upbound
 
+# Category that best describes this Stack
+category: Sample
+
 # Keywords that describe this application and help search indexing
 keywords:
 - "samples"
@@ -30,11 +33,8 @@ keywords:
 - "tutorials"
 
 # Links to more information about the application (about page, source code, etc.)
-links:
-- description: Website
-  url: "https://upbound.io"
-- description: Source Code
-  url: "https://github.com/crossplaneio/sample-stack"
+website: "https://upbound.io"
+source: "https://github.com/crossplaneio/sample-stack"
 
 # License SPDX name: https://spdx.org/licenses/
 license: Apache-2.0
