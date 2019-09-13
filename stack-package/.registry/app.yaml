@@ -32,6 +32,8 @@ keywords:
 - "examples"
 - "tutorials"
 
+permissionScope: "Namespaced"
+
 # Links to more information about the application (about page, source code, etc.)
 website: "https://upbound.io"
 source: "https://github.com/crossplaneio/sample-stack"
