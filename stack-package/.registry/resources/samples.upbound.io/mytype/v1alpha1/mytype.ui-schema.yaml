@@ -1,4 +1,6 @@
-version: 0.3
+version: 0.4
 configSections:
 - title: MyType UI Title
   description: MyType UI Description
+resourceConditionPaths:
+- .status.conditionedStatus.conditions[?(@.type=='Ready')]
