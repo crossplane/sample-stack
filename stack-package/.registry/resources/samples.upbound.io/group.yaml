@@ -1,3 +1,8 @@
 title: Sample Group
-description: This is the description for the Sample Group
+overview: This is the description for the Sample Group
+overviewShort: This is the description for the Sample Group
+readme:
+  ## Sample Group
+
+  This is the Markdown README for the _Sample Group_.
 category: Sample

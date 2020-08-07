@@ -1,5 +1,15 @@
 id: mytype
 title: MyType
-title-plural: MyTypes
-description: This is MyType's Description
+titlePlural: MyTypes
+overviewShort: This is MyType's Short Overview
+overview: |
+  This is MyType's Overview. Like the Short Overview, it is written in plain text.
+readme: |
+  ## Sample Type (MyType) Readme
+
+  This is MyType's Readme.
+
+  * It is Short
+
+  The **README** is written in [_Markdown_](https://en.wikipedia.org/wiki/Markdown).
 category: Sample

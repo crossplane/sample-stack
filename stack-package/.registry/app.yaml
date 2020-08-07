@@ -1,9 +1,13 @@
 # Human readable title of application.
 title: Sample Crossplane Stack
+overviewShort: A short plaintext description
+overview: A longer form plaintext description
 
 # Markdown description of this entry
-description: |
- Markdown describing this sample Crossplane stack project.
+readme: |
+ ## Sample Crossplane Stack
+
+ This area would contain **markdown** describing this Stack, but this is *only* a Sample Stack.
 
 # Version of project (optional)
 # If omitted the version will be filled with the docker tag
@@ -31,6 +35,9 @@ keywords:
 - "samples"
 - "examples"
 - "tutorials"
+
+permissionScope: "Namespaced"
+dependsOn: []
 
 # Links to more information about the application (about page, source code, etc.)
 website: "https://upbound.io"
